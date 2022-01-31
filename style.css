@@ -1,0 +1,22 @@
+section {
+    background-color: turquoise;
+    text-align: center;
+
+}
+
+h1 {
+    color: violet;
+}
+
+h2 {
+    color: yellow;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
