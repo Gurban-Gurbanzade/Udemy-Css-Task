@@ -1,22 +1,15 @@
-section {
-    background-color: turquoise;
-    text-align: center;
-
-}
-
 h1 {
-    color: violet;
+    text-align: center;
 }
 
-h2 {
-    color: yellow;
+h3 {
+    margin: 0px;
 }
 
-ul {
-    list-style-type: none;
+.sari {
+    background-color: yellow;
 }
 
-a {
-    color: blueviolet;
-    text-decoration: none;
+.blue {
+    background-color: blue;
 }
