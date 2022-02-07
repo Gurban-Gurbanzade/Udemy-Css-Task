@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            font-weight: 20px;
+            background-color: aqua;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+        }
+
+        p.about::first-line {
+            color: green;
+        }
+
+        p::first-letter {
+            font-size: 50px;
+        }
+
+        ::selection {
+            background-color: yellow;
+        }
+
+        ::after {
+            content: '\26BD';
+            font-size: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Pseudo classes -->
+
+    <!-- Pseudo elements -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam necessitatibus doloribus distinctio laborum,
+        soluta itaque consectetur ab ipsam! Minima, amet!</p>
+
+    <p class="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum vel corrupti ducimus, placeat
+        repellat
+        aspernatur accusamus hic veritatis sint facilis possimus rem, aliquam ipsa? Quo, assumenda in. Dolorem, eos.</p>
+
+
+</body>
+
+</html>
