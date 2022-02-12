@@ -42,8 +42,11 @@
 }
 
 .four {
+    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
+    background-color: gray;
 }
 
 .flex {
@@ -52,4 +55,10 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
+
+}
+
+i {
+    color: blue;
+    font-size: 40px;
 }
