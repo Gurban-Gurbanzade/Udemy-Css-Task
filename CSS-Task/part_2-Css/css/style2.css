@@ -34,3 +34,22 @@
 .second {
     background-color: rgb(88, 88, 182);
 }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
