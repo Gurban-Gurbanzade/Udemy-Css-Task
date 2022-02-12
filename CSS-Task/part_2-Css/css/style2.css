@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: rgb(236, 77, 37);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin: 0px;
+}
+
+.first-logo {
+    color: white;
+
+}
+
+.first ul li {
+    display: inline;
+    padding-right: 20px;
+
+}
+
+.first ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.first ul li a:hover {
+    color: rgb(88, 88, 182);
+}
+
+.second {
+    background-color: rgb(88, 88, 182);
+}
