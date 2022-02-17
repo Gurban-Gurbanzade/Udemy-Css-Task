@@ -25,33 +25,73 @@
 // document.write("istifadeci adi:  " + ad + "<br>");
 // // // // document.write("istifadeci yasi:  " + yas)
 
-var age;
-console.log(age);
-age = 20;
-console.log(age);
+// Ders 2: Deyisenler
 
-var fullname = "Qurban Qurbanzade";
-console.log(fullname);
+// var age;
+// console.log(age);
+// age = 20;
+// console.log(age);
 
-fullname = "Kenan Qurbanzade";
-console.log(fullname);
+// var fullname = "Qurban Qurbanzade";
+// console.log(fullname);
 
-// Deyisen tanima qaydalari
-// deyisen adlari reqem ile baslaya bilmez
-var yas1;
-var _yas2;
-var $yas3;
+// fullname = "Kenan Qurbanzade";
+// console.log(fullname);
 
-// Element adlari ile baslaya bilmez
-// adlar birden cox olarsa
+// // Deyisen tanima qaydalari
+// // deyisen adlari reqem ile baslaya bilmez
+// var yas1;
+// var _yas2;
+// var $yas3;
 
-var ad_soyad = "Qurban Qurbanzade";
-var adSoyad = "Qurban Qurbanzade";
+// // Element adlari ile baslaya bilmez
+// // adlar birden cox olarsa
 
-// var, let, const
+// var ad_soyad = "Qurban Qurbanzade";
+// var adSoyad = "Qurban Qurbanzade";
 
-let city = "Beylagan";
-console.log(city);
+// // var, let, const
 
-const email = "abc@gmail.com";
-console.log(email);
+// let city = "Beylagan";
+// console.log(city);
+
+// const email = "abc@gmail.com";
+// console.log(email);
+
+// Ders 2: Deyisen tipleri
+
+// Primitiv tipler
+
+// string
+let firstName = "Qurban"
+console.log(typeof firstName);
+
+// Number
+let age = 28;
+console.log(typeof age);
+
+//Boolen
+let isActive = false;
+console.log(typeof isActive);
+
+//null
+let job = null;
+console.log(typeof job);
+
+//undefined
+let car;
+console.log(typeof car);
+
+
+// Obyekt tipler
+//array
+//object
+//function
+let names = ["Eli", "Qurban", "Ehmed"];
+console.log(typeof names);
+
+var calculateAge = function () {
+    return 0;
+};
+
+console.log(typeof calculateAge);
