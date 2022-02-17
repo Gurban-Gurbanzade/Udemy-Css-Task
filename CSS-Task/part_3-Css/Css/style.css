@@ -1,5 +1,12 @@
 body {
     margin: 0;
+    height: 2000px;
+}
+
+.container {
+    height: 100%;
+    margin-left: 40px;
+    position: relative;
 }
 
 .box {
@@ -22,5 +29,7 @@ body {
     /* position: relative;
     top: 80px;
     left: 40px; */
-    position: absolute;
+    position: fixed;
+    top: 100px;
+    left: 80px;
 }
