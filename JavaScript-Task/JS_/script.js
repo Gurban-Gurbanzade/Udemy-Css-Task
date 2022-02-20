@@ -1,43 +1,33 @@
-//Deyisenlerin tipleri
+// ders 4 - tip deyisimi
+let num1 = Number('5');
+let num2 = Number("10");
+let total = num1 + num2;
+console.log(total);
+console.log(typeof total);
 
-//primitiv tipler
+//der 5 - opertorlar
 
-//string
-let firstname = "qurban";
-console.log(typeof firstname);
+let val;
+const a = 10;
+const b = 5;
+const c = 4;
+let d = 3;
 
-//number
-let age = 20;
-let money = 10.5;
-console.log(typeof age);
+val = a + b;
+val = a - b;
+val = a * b;
+val = a / b;
+val = a % 5;
+val = d++;
 
-//boolen
-let isActive = true;
-console.log(typeof isActive);
+val = a;
+val += a;
+val -= a;
 
-//null
-let job = null;
-console.log(typeof job)
+val = (a < b) && (a > c);
+val = (a < b) || (a > c);
+val = !(a > b);
 
-//undifined
-let car;
-console.log(typeof car)
 
-//obyekt tipler
-
-//array
-let names = ["qurban", "kenan", "eli"];
-console.log(typeof names);
-
-//object
-let adress = {
-    city: "baki",
-    country: "Aze"
-}
-console.log(typeof adress)
-
-//function
-let calc = function () {
-    return 0;
-};
-console.log(typeof calc)
+console.log(val);
+console.log(typeof val);
