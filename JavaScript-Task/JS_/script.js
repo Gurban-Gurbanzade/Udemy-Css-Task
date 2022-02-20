@@ -1,24 +1,43 @@
-let age;
-age = 20;
-console.log(age);
+//Deyisenlerin tipleri
 
-let fullname = "qurban qurbanzade";
-console.log(fullname);
+//primitiv tipler
 
-fullname = "kenan qurbanzade";
-console.log(fullname);
-
-let ad_soyad = "kenan qurbanzade";
-console.log(fullname);
-
+//string
 let firstname = "qurban";
-let Firstname = "kenan";
+console.log(typeof firstname);
 
-console.log(firstname);
-console.log(Firstname);
+//number
+let age = 20;
+let money = 10.5;
+console.log(typeof age);
 
-const email = "abc@gmail.com";
-console.log(email);
+//boolen
+let isActive = true;
+console.log(typeof isActive);
 
-//email = "bcd@gmail.com";
-//console.log(email);
+//null
+let job = null;
+console.log(typeof job)
+
+//undifined
+let car;
+console.log(typeof car)
+
+//obyekt tipler
+
+//array
+let names = ["qurban", "kenan", "eli"];
+console.log(typeof names);
+
+//object
+let adress = {
+    city: "baki",
+    country: "Aze"
+}
+console.log(typeof adress)
+
+//function
+let calc = function () {
+    return 0;
+};
+console.log(typeof calc)
