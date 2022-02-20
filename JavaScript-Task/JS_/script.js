@@ -1,33 +1,25 @@
-// ders 4 - tip deyisimi
-let num1 = Number('5');
-let num2 = Number("10");
-let total = num1 + num2;
-console.log(total);
-console.log(typeof total);
+ let d = new Date();
+ let birthday = new Date(1993, 9, 7);
 
-//der 5 - opertorlar
-
-let val;
-const a = 10;
-const b = 5;
-const c = 4;
-let d = 3;
-
-val = a + b;
-val = a - b;
-val = a * b;
-val = a / b;
-val = a % 5;
-val = d++;
-
-val = a;
-val += a;
-val -= a;
-
-val = (a < b) && (a > c);
-val = (a < b) || (a > c);
-val = !(a > b);
+ // set methods
+ d.setFullYear(2022);
+ d.setMonth(5);
+ d.setDate(2);
+ d.setHours(12);
 
 
-console.log(val);
-console.log(typeof val);
+
+ // get methods
+ console.log(d.getDate());
+ console.log(d.getDay());
+ console.log(d.getFullYear());
+ console.log(d.getHours());
+ console.log(d.getMonth());
+ console.log(d.getSeconds());
+
+
+ console.log(d);
+ console.log(typeof d);
+
+ console.log(d.getDate() - birthday.getDate());
+ console.log(d.getFullYear() - birthday.getFullYear());
