@@ -1,49 +1,64 @@
-// const name = 'kenan';
-// const surname = 'qurbanzade';
-// const age = 35;
-// let hobby = 'kino, kitab, idman, yazi'
-// let val;
+// Arrays
+let names = ['qurban', 'kenan', 'eli'];
+let years = [2020, 1993, 2022, 1995];
+let mix = ['qurban', 'kenan', null, undefined, ['sinema', 'kitab']];
 
-// val = name + " " + surname;
-// val = name;
-// val += surname;
-// val = 'menim adim ' + name + ' soyadim ' + surname + ' ve yasim ' + age;
+let names1 = ['qurban', 'kenan', 'eli'];
+let years1 = ['1993', '2022', '1995'];
+let mix1 = ['qurban', 'kenan', null, undefined, ['sinema', 'kitab']];
 
-// val = name.concat(' ', surname);
+//find
+function over18(year) {
+    let age = 2022 - year;
+    return age >= 18;
+}
+//console.log(over18(2016));
+let val1 = years.find(over18);
+console.log(val1)
 
-// //val = val.length;
+//filter
+let val2 = years.filter(over18);
+console.log(val2)
 
-// val = val.toUpperCase();
-// val = val.toLowerCase();
 
-// //val = val[2];
+//splice
+console.log(names1);
+names1.splice(1, 0, 'ehmed')
+console.log(names1);
 
-// //val = val.indexOf('e');
-
-// //val = val.substring(0, 5);
-
-// //val = val.slice(6);
-
-// val = hobby.split(',');
-
-// console.log(val);
-// console.log(typeof val);
-
-let sentence = "men sabah derse getmeyeceyem"
-
-//sentence = sentence.length;
-//sentence = sentence.split(' ');
-sentence = sentence.toLowerCase();
-sentence = sentence.trim();
-sentence = sentence.replace('s', ' ');
-
-console.log(sentence);
-
-const name = 'kenan qurbanzade';
-const city = 'baku';
-const birthday = 1993;
-let val;
-
-val = `my name is ${name} yasiyiram ${city} yasim ${2022-birthday}`
-
+//concat
+let val = years.concat(names);
 console.log(val);
+
+//sort
+years.sort();
+
+//reverse
+names.reverse();
+
+//indexof
+let index = names.indexOf('eli');
+console.log('index ' + index)
+
+//remove item
+years.pop();
+years.shift();
+
+//add item
+years.push('1996');
+years.unshift('1997');
+
+//set array item
+//names[5] = 'veli';
+names[names.length] = 'veli';
+
+// get array item
+console.log(names[1]);
+console.log(mix[4]);
+
+console.log(names);
+console.log(names.length);
+console.log(typeof names);
+
+console.log(years);
+console.log(mix);
