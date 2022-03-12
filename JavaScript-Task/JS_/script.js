@@ -1,42 +1,20 @@
-// Deyishenler tip deyishimi
-// let x = Number("5");
-// let y = Number("10");
+let name = "qurban";
+let surname = "qurbanzade";
+let fullName = "qurban qurbanzade";
+let pasport = "12345";
+let order = 205.6;
+let gender = true;
+let adress = {
+  city: "baki",
+  district: "bine",
+  body: "mecidin yani",
+};
+let hobby = ["sinema", "kitab", "idman"];
 
-// let z = x + y;
-let z;
-//number to string
+let order1 = "100";
+let order2 = "200";
 
-z = String(20);
+let total = Number(order1) + Number(order2);
+console.log(total);
 
-// bool to string
-
-z = String(true);
-
-// date to string
-z = String(new Date().getFullYear());
-
-//array to string
-
-z = String([1, 2, 3]);
-
-//toString
-z = (10).toString();
-z = true.toString();
-
-//string to number
-
-z = Number("10");
-z = Number(true);
-z = Number(false);
-z = Number(null);
-z = Number("a");
-z = Number([1, 2, 3]);
-
-//parsInt parsFloat
-z = parseInt("10");
-z = parseInt("10.5");
-z = parseFloat("10.5");
-
-console.log(z);
-console.log(typeof z);
-//console.log(z.length);
+console.log(hobby.length);
