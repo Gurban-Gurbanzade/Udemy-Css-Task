@@ -18,6 +18,23 @@ years.unshift(1985);
 years.pop();
 years.shift();
 
-console.log(years);
+// indexof
+let index = names.indexOf("kenan");
+console.log(index);
+
+//reverse
+names.reverse();
+
+// sort - azdan coxa siralama
+years.sort();
+
+// conncat - birlesdirme
+let val = years.concat(names);
+console.log(val);
+
+// splice
+val.splice(2, 2, "eee", "bb", "cc");
+
+console.log(val);
 console.log(names.length);
 console.log(typeof names);
