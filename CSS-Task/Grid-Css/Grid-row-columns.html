@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body {
-            margin: 0;
-        }
+      body {
+        margin: 0;
+      }
 
-        .container {
-            background-color: blue;
-            padding: 20px;
-            display: grid;
-            grid-template-columns: auto auto;
-            grid-template-rows: 3fr 1fr auto;
-        }
+      .container {
+        background-color: blue;
+        padding: 20px;
+        display: grid;
+        /* grid-template-columns: auto 50px auto; */
+        /* grid-template-columns: repeat(3, auto); */
+        grid-template-columns: auto 50px auto;
+        grid-template-rows: 80px 150px;
+        grid-auto-rows: 3fr;
+      }
 
-        .item {
-            background-color: red;
-            padding: 20px;
-            margin: 20px;
-            font-size: 25px;
-            color: white;
-
-        }
+      .item {
+        background-color: red;
+        padding: 20px;
+        margin: 20px;
+        font-size: 25px;
+        color: white;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
+      <div class="item">item 9</div>
+      <div class="item">item 10</div>
+      <div class="item">item 11</div>
+      <div class="item">item 12</div>
+      <div class="item">item 13</div>
+      <div class="item">item 14</div>
     </div>
-
-</body>
-
+  </body>
 </html>
