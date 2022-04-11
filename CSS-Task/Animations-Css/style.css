@@ -10,15 +10,14 @@ body {
   background-color: yellow;
   width: 150px;
   height: 150px;
-  /* transition-property: background-color; */
-  /* transition-duration: 2s; */
-  /* transition-timing-function: ease-in-out; */
-  /* transition-timing-function: ease-in; */
-  /* transition: background-color 1s, border-radius 3s ease-in; */
   transition: all 1s;
 }
 .box:hover {
-  background-color: red;
-  border-radius: 50%;
-  border: 5px solid white;
+  /* transform: rotate(180deg); */
+  /* transform: skew(30deg); */
+  /* transform: scale(2); */
+  /* transform: translate(40px); */
+  /* transform: translate(40px, 40px); */
+  /* transform: rotateX(180deg); */
+  transform: rotateY(180deg);
 }
