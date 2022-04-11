@@ -4,20 +4,28 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  padding: 20px;
 }
 .box {
   background-color: yellow;
   width: 150px;
   height: 150px;
-  transition: all 1s;
+
+  /* animation-name: a1; */
+  /* animation-duration: 1s; */
+  /* animation-iteration-count: 2; */
+  /* animation-iteration-count: infinite; */
+  /* animation-fill-mode: forwards; */
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate-reverse; */
+  animation: a1 2s alternate-reverse 2s infinite;
+}
+
+@keyframes a1 {
+  to {
+    width: 400px;
+  }
 }
 .box:hover {
-  /* transform: rotate(180deg); */
-  /* transform: skew(30deg); */
-  /* transform: scale(2); */
-  /* transform: translate(40px); */
-  /* transform: translate(40px, 40px); */
-  /* transform: rotateX(180deg); */
-  transform: rotateY(180deg);
 }
