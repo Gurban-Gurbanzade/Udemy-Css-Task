@@ -1,66 +1,10 @@
-/* html {
-  scroll-behavior: smooth;
-} */
-body {
-  color: white;
-  margin: 0;
-  padding: 0;
+div {
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
 }
-#page1 {
-  background-color: #313552;
-}
-#page2 {
-  background-color: #b8405e;
-}
-#page3 {
-  background-color: #2eb086;
-}
-.page {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-.page h1 {
-  font-size: 5 rem;
-  margin: 2rem;
-  animation: h1_a;
-}
-.page p {
-  font-size: 1.5 rem;
-  margin: 2rem;
-}
-.btn {
-  text-decoration: none;
-  padding: 1rem 2rem;
-  color: #333;
-  background-color: #f4f4f4;
-  border: none;
-  font-size: 1.2rem;
-  transition: all 0.3s;
-}
-.btn:hover {
-  background-color: #333;
-  color: white;
-}
-#page1 h1 {
-  animation: h1_a;
-  transform: translateY(-800px);
-  animation: h1_a 0.4s forwards ease-in;
-}
-#page1 p {
-  transform: translateX(-2000px);
-  animation: h1_a 0.4s forwards ease-in;
-}
-@keyframes h1_a {
-  to {
-    transform: translateY(0);
-  }
-}
-@keyframes p_a {
-  to {
-    transform: translatex(0);
-  }
+.element {
+  margin-top: 10px;
+  animation: flip;
+  animation-duration: 2s;
 }
